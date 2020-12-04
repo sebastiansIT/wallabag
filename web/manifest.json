@@ -1,6 +1,11 @@
 {
   "short_name": "wallabag",
-  "name": "Save and classify articles. Read them later. Freely.",
+  "name": "Wallabag &ndash; Read your article later", 
+  "description": "Save and classify articles. Read them later. Freely.",
+  "display": "standalone",
+  "theme_color": "#00ACC1",
+  "background_color": "#FFFFFF",
+  "start_url": ".",
   "icons": [
     {
       "src": "wallassets/themes/_global/img/appicon/apple-touch-icon-57.png",
@@ -42,9 +47,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "display": "standalone",
-  "theme_color": "#00ACC1",
-  "background_color": "#FFFFFF",
-  "start_url": "/"
+  ]
 }
