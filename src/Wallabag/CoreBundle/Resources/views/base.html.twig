@@ -48,6 +48,7 @@
                 <link rel="stylesheet" href="{{ asset('custom.css') }}">
             {% endif %}
             {% block scripts %}
+			<script src="{{ asset('js/pwa_registration.js') }}"></script>
             <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
             <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
             {% endblock %}
