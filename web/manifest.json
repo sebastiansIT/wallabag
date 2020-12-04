@@ -47,5 +47,23 @@
       "type": "image/png",
       "sizes": "512x512"
     }
+  ],
+  "shortcuts": [
+	{
+  	  "name": "Unread",
+	  "url": "unread/list"
+	},
+	{
+  	  "name": "Starred",
+	  "url": "starred/list"
+	},
+	{
+  	  "name": "Archive",
+	  "url": "archive/list"
+	},
+	{
+  	  "name": "Tags",
+	  "url": "tag/list"
+	}
   ]
 }
