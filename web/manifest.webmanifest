@@ -1,6 +1,6 @@
 {
   "short_name": "wallabag",
-  "name": "Wallabag &ndash; Read your article later", 
+  "name": "Wallabag — Read your article later", 
   "description": "Save and classify articles. Read them later. Freely.",
   "display": "standalone",
   "theme_color": "#00ACC1",
