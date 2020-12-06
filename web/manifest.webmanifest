@@ -66,17 +66,17 @@
 	  "url": "tag/list"
 	}
   ],
-  prefer_related_applications: true,
-  related_applications: [
+  "prefer_related_applications": true,
+  "related_applications": [
     {
-	  id: "fr.gaulupeau.apps.InThePoche",
-	  platform: "play", 
-	  url: "https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche"
+	  "id": "fr.gaulupeau.apps.InThePoche",
+	  "platform": "play", 
+	  "url": "https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche"
 	},
 	{
-	  id: "fr.gaulupeau.apps.InThePoche"
-	  platform: "f-droid"
-      url: "https://f-droid.org/packages/fr.gaulupeau.apps.InThePoche/"
+	  "id": "fr.gaulupeau.apps.InThePoche",
+	  "platform": "f-droid",
+      "url": "https://f-droid.org/packages/fr.gaulupeau.apps.InThePoche/"
 	}
   ]
 }
