@@ -34,7 +34,7 @@ module.exports = merge(commonConfig, {
       },
     }),
     new ManifestPlugin({
-      fileName: 'manifest.webmanifest',
+      fileName: 'manifest.json',
     }),
   ],
   module: {
