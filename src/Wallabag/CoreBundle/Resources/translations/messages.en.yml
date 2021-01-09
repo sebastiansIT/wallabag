@@ -209,6 +209,7 @@ config:
             two_factor_code_description_2: 'You can scan that QR Code with your app:'
             two_factor_code_description_3: 'Also, save these backup codes in a safe place, you can use them in case you lose access to your OTP app:'
             two_factor_code_description_4: 'Test an OTP code from your configured app:'
+            two_factor_code_description_5: "If you can't see the QR Code or can't scan it, enter the following secret in your app:"
             cancel: Cancel
             enable: Enable
 entry:
@@ -555,7 +556,7 @@ developer:
         page_title: API clients management > How to create my first application
         description:
             paragraph_1: The following commands make use of the <a href="https://github.com/jkbrzt/httpie">HTTPie library</a>. Make sure it is installed on your system before using it.
-            paragraph_2: You need a token to communicate between your 3rd application and wallabag API.
+            paragraph_2: You need a token to communicate between your third-party application and wallabag API.
             paragraph_3: To create this token, you need <a href="%link%">to create a new client</a>.
             paragraph_4: 'Now, create your token (replace client_id, client_secret, username and password with the good values):'
             paragraph_5: 'The API will return a response like this:'

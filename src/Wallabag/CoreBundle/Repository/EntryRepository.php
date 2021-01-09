@@ -370,6 +370,22 @@ class EntryRepository extends EntityRepository
     }
 
     /**
+     * Find all entries which have an empty value for hash.
+     *
+     * @return Entry|false
+     */
+    public function findByEmptyHashedUrlAndUserId(int $userId)
+    {
+        return $this->createQueryBuilder('e')
+            ->where('e.hashedUrl = :empty')->setParameter('empty', '')
+            ->orWhere('e.hashedUrl is null')
+            ->andWhere('e.user = :user_id')->setParameter('user_id', $userId)
+            ->andWhere('e.url is not null')
+            ->getQuery()
+            ->getResult();
+    }
+
+    /**
      * Find an entry by its hashed url and its owner.
      * If it exists, return the entry otherwise return false.
      *

@@ -18,7 +18,7 @@ abstract class WallabagCoreTestCase extends WebTestCase
      */
     private $client = null;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -89,6 +89,11 @@ abstract class WallabagCoreTestCase extends WebTestCase
         $firewallName = $container->getParameter('fos_user.firewall_name');
 
         $user = $userManager->findUserBy(['username' => $username]);
+
+        if (null === $user) {
+            throw new \Exception('Unable to find user "' . $username . '". Does fixtures were loaded?');
+        }
+
         $loginManager->logInUser($firewallName, $user);
 
         $session->set('_security_' . $firewallName, serialize($container->get('security.token_storage')->getToken()));
