@@ -105,6 +105,18 @@
 	  "id": "fr.gaulupeau.apps.InThePoche",
 	  "platform": "f-droid",
       "url": "https://f-droid.org/packages/fr.gaulupeau.apps.InThePoche/"
+	},
+	{
+	  "platform": "itunes", 
+	  "url": "https://apps.apple.com/fr/app/wallabag-2-official/id1170800946"
+	},
+	{
+	  "platform": "windows", 
+	  "url": "https://www.microsoft.com/store/apps/9nblggh5x3p6"
+	},
+	{
+	  "platform": "chrome_web_store",
+      "url": "https://chrome.google.com/webstore/detail/wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj"
 	}
   ]
 }
