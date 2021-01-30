@@ -21,6 +21,8 @@ import './js/highlight';
 
 import { savePercent, retrievePercent } from './js/tools';
 
+import './js/pwaregistration';
+
 /* ==========================================================================
  Annotations & Remember position
  ========================================================================== */
